@@ -78,6 +78,7 @@ The results of the clustering analysis using K-means indicate the existence of t
 ![Viz](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/cluster_viz.png)
 ## Cluster Characteristics Results
 ![Heatmap Clustering](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/heatmap%20clustering.png)
+![Customer Behavior](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/cust_behaviour.png)
 
 **Cluster 0**:
 
