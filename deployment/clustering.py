@@ -63,12 +63,20 @@ def run():
         st.write('# Nasabah ini cocok masuk ke dalam klaster  : ', str(prediction_cluster[0]))
         if prediction_cluster == 0:
           st.write('Produk yang cocok untuk nasabah klaster 0 adalah sebagai berikut:')
-          st.write('1. Tabungan Pendidikan')          
-          st.write('2. Tabungan Masa Depan')          
+          st.write('1. **Tabungan** dan **Investasi**: Doronglah mereka untuk memanfaatkan pendapatan yang lebih tinggi seiring bertambahnya usia dengan menawarkan produk tabungan atau investasi yang membantu mereka menumbuhkan kekayaan.')          
+          st.write('2. **Produk Reksa Dana**: Sarankan produk reksa dana yang sesuai dengan profil risiko mereka untuk membantu mereka berinvestasi dengan cara yang terdiversifikasi.')
+          st.write('3. **Kredit Suku Bunga Rendah**: Menawarkan produk kredit dengan suku bunga rendah atau kartu kredit dengan suku bunga yang kompetitif kepada konsumen untuk membantu mereka mengelola kebutuhan finansial sehari-hari.')
+          st.write('')
+          st.write('Penting untuk selalu memahami profil nasabah individu dan kebutuhan mereka secara lebih rinci sebelum menawarkan produk perbankan atau keuangan tertentu. Selain itu, pendekatan yang berfokus pada edukasi keuangan juga dapat membantu.')          
         else:
-          st.write('''Produk yang cocok untuk nasabah klaster 1 adalah sebagai berikut:
-                    1. Tabungan Pendidikan
-                    2. Tabungan Masa Depan''')
-        
+          st.write('Produk yang cocok untuk nasabah klaster 1 adalah sebagai berikut:')
+          st.write('1. **Manajemen Hutang**: Menawarkan layanan manajemen utang dan konsultasi keuangan yang dapat membantu mereka mengelola utang dengan lebih baik.')
+          st.write('2. **Kredit Konsolidasi**: Merekomendasikan produk konsolidasi utang yang dapat membantu nasabah mengkonsolidasikan utang mereka dengan bunga yang lebih rendah, sehingga dapat mengurangi beban utang mereka.')
+          st.write('3. **Asuransi Perlindungan Pendapatan**: Menyediakan produk asuransi perlindungan pendapatan atau asuransi kredit yang dapat melindungi mereka dalam situasi darurat dan membantu mereka melunasi hutang mereka jika terjadi hal-hal yang tidak terduga.')
+          st.write('4. **Program Edukasi Keuangan**: Menyediakan program edukasi keuangan khusus untuk anggota Cluster 1 agar mereka dapat memahami cara mengelola utang dengan lebih baik dan menghindari penumpukan utang yang lebih besar.')
+          st.write('5. **Investasi Pemulihan Utang**: Menawarkan produk investasi yang dapat membantu mereka mendapatkan penghasilan tambahan untuk melunasi utang mereka lebih cepat.')
+          st.write('')
+          st.write('Penting untuk selalu memahami profil nasabah individu dan kebutuhan mereka secara lebih rinci sebelum menawarkan produk perbankan atau keuangan tertentu. Selain itu, pendekatan yang berfokus pada edukasi keuangan juga dapat membantu.')
+          
 if __name__ == '__main__':
     run()
