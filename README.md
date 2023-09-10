@@ -61,10 +61,24 @@ The aim of this project is to implement cluster-based customer segmentation tech
 By achieving these goals, financial companies can increase their understanding of customers, improve service, reduce risk, and achieve competitive advantage in a competitive industry.
 
 ## EDA (Exploratory Data Analysis)
+![Edu](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/edu_plot.png)
+![Defaulted](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/defaulted_plot.png)
+![AIA](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_income_age.png)
+![AICD](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_carddebt_age.png)
+![AIOD](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_otherdebt_age.png)
+![AIDIR](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_debtincomeratio_age.png)
+![AYEI](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_yearsemployed_income.png)
+![AYECD](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_yearsemployed_carddebt.png)
+![AYEOD](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_yearsemployed_otherdebt.png)
+![AYEDIR](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/av_yearsemployed_debtincomeratio.png)
 
 ## Clustering Method
+The results of the clustering analysis using K-means indicate the existence of two distinct clusters with diverse financial characteristics. Each cluster represents a different customer profile, and the associated financial attributes provide valuable insights for customizing product and service offerings in the banking sector.
 
+![Viz](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/cluster_viz.png)
 ## Cluster Characteristics Results
+![Heatmap Clustering](https://github.com/theonugraha/Customer-Segmentation-Machine-Learning/blob/main/Readme%20Contents/heatmap%20clustering.png)
+
 **Cluster 0**:
 
 - Age: Low
