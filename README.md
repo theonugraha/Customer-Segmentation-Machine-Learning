@@ -101,6 +101,63 @@ The results of the clustering analysis using K-means indicate the existence of t
 
 
 # Conclusion
+## Exploratory Data Analysis Conclusion
+### EDA Conclusion based on Age Trend
+Insights and conclusions based on the EDA Age Trend results are as follows:
+
+**General Revenue Trends**:
+
+- It can be seen that the average income (Average Income) increases with age until it reaches a peak at around 51 years of age (120.86) and then decreases.
+- This indicates that individuals tend to reach their peak earnings when they are older, perhaps because they have reached a higher career level or have longer work experience.
+
+**Debt To Income Ratio**:
+
+- The debt to income ratio (Average Debt Income Ratio) appears to have a more stable trend with smaller variations compared to income.
+- At younger ages, this ratio tends to be lower, reaching a peak at age 31 (10.76), then decreasing gradually until age 54, and rising sharply at age 55 (16.05).
+- The sharp increase at age 55 may be of concern, as it may indicate debt levels that increase with age. There may be other factors influencing this sharp increase, such as retirement planning or health.
+
+**Card Debt and Other Debt**:
+
+- Average credit card debt (Average Card Debt) and other debt (Average Other Debt) also show an increasing trend with age.
+- Average credit card debt increases more sharply after age 30, peaks at age 47 (4.24) and then declines.
+- Average other debts also increase with age, peaking at age 54 (8.39).
+
+**Conclusion**:
+
+- Financial management and debt planning need special attention at certain ages, especially at around 55 years of age where the debt to income ratio increases sharply.
+- Banks or financial institutions can develop appropriate products and services to help individuals manage their debt, especially at ages that are vulnerable to increasing debt.
+- Understanding these trends can also help in better credit risk assessment and financial planning for customers across age groups.
+
+### EDA Conclusion based on Years Employed Trend
+The following are insights and conclusions based on the results of the EDA Years Employed Trend as follows:
+
+**Average Income based on Years Employed**:
+
+- Average income tends to increase with increasing years of work experience (Years Employed).
+- There is a steady upward trend through the early years of work experience, then there is greater variation as the years of work experience increase. There is a peak in income in the 31st working year (212.67) which then decreases in the following working year.
+
+**Average Card Debt by Years Employed**:
+
+- Average card debt (Average Card Debt) also tends to increase with increasing years of work experience. It can be seen that the average card debt level increases after several years of work experience, reaching a peak in the 31st year of work (9.27).
+- This may indicate that the longer someone works, the more likely they are to accumulate credit card debt.
+
+**Average Other Debts based on Years Employed**:
+
+- Average other debt (Average Other Debt) also experienced a significant increase along with increasing years of work experience. This increase appears sharper in the early years of work experience and begins to decline after the 30th year of work.
+- These indications may suggest that individuals tend to take on more debt during the early years of their careers, perhaps for education or the purchase of a home, and then tend to pay down that debt as they gain age and work experience.
+
+**Debt to Income Ratio based on Years Employed**:
+
+- The debt to income ratio (Average Debt Income Ratio) shows a fluctuating trend with increasing years of work experience. This ratio has significant variations, with the highest peak in the 25th working year (12.77) and the lowest in the 33rd working year (6.30).
+- A sharp increase in this ratio in the 25th year of employment may be of concern, as it may indicate a high level of debt relative to income at this point.
+
+**Conclusion**:
+
+- Individuals tend to experience increases in income as work experience increases, but there are significant fluctuations in the debt-to-income ratio and the amount of credit card debt and other debt.
+- Banks or financial institutions can use this information to develop products and services that are more tailored to different stages in a person's career.
+- Financial monitoring and education may be necessary especially during the early years of a career when individuals tend to take on more debt.
+
+## Overall Conclusion
 From the business side, we can draw conclusions that cover several important aspects related to customer groups in Cluster 0 and Cluster 1, namely age, income, credit card debt, other debt, and debt to income ratio. The following are conclusions that represent these aspects:
 
 **Customer Segmentation**
